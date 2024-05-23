@@ -40,3 +40,20 @@
 
 12. **Sortie** :
     - Le script se termine avec un code de sortie 0 (succès) après avoir exécuté les actions requises.
+   
+Pour exécuter ce script Bash, suivez ces étapes :
+
+1. **Ouvrir un éditeur de texte** : créer un nouveau fichier et copiez-collez-y le script.
+
+2. **Sauvegarder le fichier** : Enregistrez le fichier avec une extension `.sh` pour indiquer qu'il s'agit d'un script Bash. 
+
+3. **Donner les permissions d'exécution** : Dans votre terminal, accédez au répertoire où se trouve le fichier `todo.sh`. Utilisez la commande suivante pour donner les permissions d'exécution au fichier :
+   ```
+   chmod +x todo.sh
+   ```
+
+4. **Exécuter le script** : Utilisez la commande suivante pour exécuter le script :
+   ```
+   ./todo.sh [options]
+   ```
+   Remplacez `[options]` par l'une des options suivantes : `create`, `update`, `delete`, `show`, `list`, `search`, `help`.
